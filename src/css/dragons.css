@@ -1,0 +1,41 @@
+#dragons-container ul {
+    list-style: none;
+}
+
+.dragon-card {
+    margin: 15px auto;
+    padding: 15px;
+    transition: all .4s ease;
+    width: 90%;
+    text-align: center;
+}
+
+.dragon-card:hover {
+    transform: scale(1.05);
+}
+
+.dragon-card img {
+    margin: 20px 0;
+    width: 150px;
+}
+
+.dragon-card .card-name {
+    text-align: center;
+    font-size: 20px;
+}
+
+#dragon-name-search {
+    padding: 3px 7px;
+    font-size: 17px;
+}
+
+#dragon-page-buttons {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+#dragon-page-buttons button {
+    padding: 5px;
+
+}

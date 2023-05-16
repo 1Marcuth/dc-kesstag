@@ -1,0 +1,70 @@
+h2 {
+    margin: 25px 0 35px;
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    margin: 20px 0 30px;
+    font-size: 20px;
+}
+
+p {
+    margin: 15px 0 25px;
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+.node {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 20px;
+}
+
+.title-lap-node {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.title-mission span {
+    font-size: 15px;
+}
+
+.mission {
+    display: inline-grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px 0 #e8e8e8;
+    margin: 5px;
+    width: 320px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.089), 0 2px 10px 0 rgba(0, 0, 0, 0.041);
+}
+
+.info span {
+    font-size: 13px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.image img {
+    width: 60px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+}
+
+#lap-selector {
+    margin: 25px 0 35px;
+}
